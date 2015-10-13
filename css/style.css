@@ -1,0 +1,153 @@
+* {margin:0; padding:0;}
+
+
+
+html {  
+    background: url('../images/img-background.jpg') no-repeat center center fixed;  
+    -webkit-background-size: cover;  
+    -moz-background-size: cover;  
+    -o-background-size: cover;  
+    background-size: cover; 
+}
+
+
+#container {
+	width:100%;
+	height:100%;
+	margin:auto;
+	/background:#01355C;
+}
+
+#content {
+	width:90%;
+	display:table;
+	margin:auto;
+	/background:#01355C;
+}
+
+img, 
+object, 
+embed, 
+video, 
+iframe, 
+iframe[style]{
+	max-width:100%;
+	height:auto;
+}
+
+.box {
+	width:300px;
+	height:117px;
+	background:#ccc;
+	float:left;
+
+}
+
+.box .img-box {
+	width:100%;
+	height:auto;
+	max-width:100%;
+	margin-top:2%;
+}
+
+ul {
+	width:100%;
+	height:500px;
+}
+
+ul a {
+	width:300px;
+	height:117px;
+	list-style:none;
+	float:left;
+	background:#014A81;
+	margin-left:1%;
+	margin-top:1%;
+}
+
+.img-box-nome {
+	width:82px;
+	height:112px;
+	margin-top:2%;
+	margin-left:2%;
+	/* background:url('../images/box-enquete.jpg') no-repeat; */
+	background:url('../images/letra-box-1.png') no-repeat;	
+	position:absolute;
+}
+
+.txt-title {
+	width:100%;
+	height:auto;
+	margin-left:80px;
+	margin-top:20px;
+	position:absolute;
+	font-family:arial;
+	font-size:25px;
+	color:#fff;
+}
+
+
+
+#header {
+width:2043,536%; 
+/* width:100%; */
+/* background:#ccc; */
+margin:auto;
+display:table;
+margin-bottom:5%;
+
+}
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 1060px) {
+
+#content {
+width:100%;
+}
+
+ul a {
+	width:48%;
+}
+
+.img-box-nome {
+	margin-left:2.8%;
+	margin-top:2.8%;
+}
+
+
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 420px) {
+#content {
+width:100%;
+}
+
+.img-box-nome {
+	margin-left:6%;
+	margin-top:6%;
+}
+    
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 700px) {
+#content {
+width:100%;
+}
+
+ul a {
+width:100%;
+height:15%;
+}
+
+.img-box-nome {
+	width:33px;
+	height:38px;
+	max-width:100%;
+	background:url('../images/small-img-letra-box.jpg');
+	margin-left:4%;
+	margin-top:4%;
+}
+    
+}
